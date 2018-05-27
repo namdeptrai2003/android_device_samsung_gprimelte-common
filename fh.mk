@@ -9,7 +9,7 @@ TARGET_SCREEN_HEIGHT := 960
 TARGET_BOOT_ANIMATION_RES := 540
 
 # Inherit some common Candy stuff.
-$(call inherit-product, vendor/candy/config/common_full_phone.mk)
+$(call inherit-product, vendor/fh/config/common_full_phone.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
