@@ -8,9 +8,8 @@ TARGET_SCREEN_HEIGHT := 960
 #Bootanimation Res
 TARGET_BOOT_ANIMATION_RES := 540
 
-# Inherit some common LLuviaOS stuff.
-$(call inherit-product, vendor/lluvia/config/common_full_phone.mk)
-$(call inherit-product, vendor/lluvia/config/caf_fw.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
